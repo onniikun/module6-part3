@@ -19,7 +19,7 @@ spec:
         - name: ghcr-creds
       containers:
         - name: backend
-          image: ghcr.io/Onniikun/module_6_part3-backend:latest
+          image: ghcr.io/onniikun/module6-part3-backend:latest
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
